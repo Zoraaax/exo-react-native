@@ -1,9 +1,13 @@
 import React from 'react';
-import Contact from './components/Contact';
+import TodoList from './components/TodoList';
+// import Contact from './components/Contact';
 
 const App = () => {
     return (
-        <Contact />
+        <>
+            {/* <Contact /> */}
+            <TodoList />
+        </>
     );
 }
 
